@@ -1,0 +1,741 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Asap+Condensed:wght@500&family=Caprasimo&family=Heebo:wght@600&family=Lobster&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+
+}
+
+body {
+    display: inline-block;
+    background-image: url(skyline-downtown-new-york-new-york-usa.jpg);
+    background-repeat: no-repeat;
+    max-height: 110vh;
+    background-size: 1570px 1000px;
+
+}
+
+@keyframes navi {
+    25% {
+        top: 12px;
+    }
+
+}
+
+@keyframes navi1 {
+    25% {
+        right: 0px;
+        top: -12px;
+
+    }
+
+
+
+
+
+}
+
+@keyframes giza {
+    50% {
+        left: 540px;
+    }
+
+    100% {
+        left: 445px;
+    }
+}
+
+@keyframes china {
+    50% {
+        left: 451px;
+    }
+
+    100% {
+        left: 536px;
+    }
+}
+
+@keyframes Ellora {
+    50% {
+        left: 776px;
+    }
+
+    100% {
+        left: 700px;
+    }
+}
+
+@keyframes romedome {
+    50% {
+        left: 690px;
+    }
+
+    100% {
+        left: 789px;
+
+    }
+
+}
+
+
+
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #77889999;
+}
+
+.logoanime {
+    color: floralwhite;
+    position: relative;
+    right: 92px;
+    bottom: 13px;
+    font-family: 'Caprasimo', cursive;
+    font-size: 28px;
+    animation: navi 3s;
+
+
+
+}
+
+.logoanime1 {
+    position: relative;
+    left: -247px;
+    color: floralwhite;
+    top: 13px;
+    font-family: 'Caprasimo', cursive;
+    animation: navi1 3s;
+
+
+}
+
+.imglogo {
+    position: relative;
+    right: 576px;
+    width: 73px;
+}
+
+ul {
+    list-style: none;
+    margin: 25px;
+
+}
+
+li {
+    display: flex;
+
+}
+
+li p {
+    padding: 0px 56px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navanimation {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    position: relative;
+    left: 251px;
+}
+
+.navanimation::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 3px;
+    width: 100%;
+    left: 1px;
+    transition: 0.3s ease-out;
+    background: rgb(129, 199, 201);
+    transform: scaleX(0)
+}
+
+.navanimation:hover::after {
+    transform: scaleX(1);
+    border: 1px solid whitesmoke;
+}
+
+.giza {
+    display: inline-block;
+    width: 68px;
+    position: absolute;
+    left: 445px;
+    border-radius: 6px;
+    animation: giza 5s;
+    transition: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.wallchina {
+    display: inline-block;
+    width: 69px;
+    position: absolute;
+    left: 534px;
+    animation: china 5s;
+    border-radius: 6px;
+    transition: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.Ajanta {
+    display: inline-block;
+    position: absolute;
+    width: 70px;
+    left: 700px;
+    border-radius: 8px;
+    animation: Ellora 5s;
+    transition: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease
+}
+
+.rome {
+    display: inline-block;
+    position: absolute;
+
+    width: 70px;
+    border-radius: 9px;
+    left: 789px;
+    animation: romedome 5s;
+    transition: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.we {
+    display: inline-block;
+    border: 3px solid rgb(4, 54, 55);
+    width: 30%;
+    height: 280px;
+    position: relative;
+    left: 35%;
+    top: 34px;
+    background-color: #afeeeecf;
+    border-radius: 19px;
+    box-shadow: 10px 10px cornflowerblue;
+    transition: 0.7s;
+}
+
+.we:hover {
+    border: 3px;
+    box-shadow: 5px 5px 9px whitesmoke;
+    background-color: cornflowerblue;
+    opacity: 0.8;
+    color: rgb(251, 253, 255);
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    padding: 23px;
+    position: relative;
+    right: 10px;
+    top: 12px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    color: black;
+    text-decoration: underline lightseagreen 2px;
+
+
+
+
+}
+
+.whowe {
+    padding: 25px;
+    position: relative;
+    bottom: 23px;
+    font-family: 'Heebo', sans-serif;
+
+
+}
+
+.introimg {
+    position: relative;
+    width: 236px;
+    bottom: 281px;
+    border: 2px solid yellow;
+}
+
+.paratwo {
+    background: #00ffffc4;
+    width: 23vw;
+    height: 236px;
+    position: relative;
+    left: 595px;
+    top: 74px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 2px aliceblue;
+    transition: 0.8s;
+}
+
+.paratwo:hover {
+    box-shadow: 7px 7px 5px cadetblue;
+    background-color: #f0f8ffbf;
+
+}
+
+
+
+
+h5 {
+    position: relative;
+    left: 100px;
+    top: 27px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 23px;
+    text-decoration: underline 2px solid cornsilk;
+}
+
+.ourmis {
+    position: relative;
+    top: 17px;
+    padding: 18px;
+    font-family: 'Heebo', sans-serif;
+    left: 6px;
+
+
+}
+
+.social {
+    width: 164px;
+    position: relative;
+    height: 232px;
+    left: 85%;
+}
+
+
+h6 {
+    color: hotpink;
+    position: relative;
+    padding: 13px;
+    right: 2px;
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+    text-decoration: 2px underline currentColor;
+    top: 52px;
+}
+
+.insta {
+    display: flex;
+    width: 52%;
+    position: relative;
+    transition: 0.5s;
+    top: 216px;
+    right: 139px;
+}
+
+
+
+.insta:hover {
+    width: 56%;
+    bottom: 5px;
+
+}
+
+
+#instag {
+    display: inline-flex;
+
+}
+
+
+
+.fb {
+    position: relative;
+    width: 78px;
+    bottom: 11px;
+    transition: 0.5s;
+    right: 47px;
+}
+
+#faceb {
+    display: inline-block;
+    height: 0px;
+    position: relative;
+    left: 1300px;
+}
+
+
+.fb:hover {
+    width: 84px;
+}
+
+.banner {
+    display: flex;
+    width: 17vw;
+    height: 86vh;
+    position: relative;
+    bottom: 786px;
+    border: 4px solid;
+    border-color: burlywood;
+    left: 27px;
+    border-radius: 14px;
+    transition: 0.5s;
+}
+
+.banner:hover {
+    box-shadow: 6px 6px 12px burlywood;
+}
+
+.vision {
+    display: flex;
+    position: relative;
+    width: 258px;
+    bottom: 1392px;
+    left: 1179px;
+    border-radius: 17px;
+    transition: 0.5s;
+    border: 4px solid hotpink;
+}
+
+.vision:hover {
+    box-shadow: 6px 6px 9px hotpink;
+    border-color: whitesmoke;
+}
+
+#teleg {
+    display: inline-block;
+    height: 0px;
+}
+
+.telegram {
+    position: relative;
+    left: 1266px;
+    bottom: 13px;
+    width: 77px;
+    transition: 0.5s;
+    height: 76px;
+}
+
+.telegram:hover {
+    bottom: 17px;
+    width: 81px;
+    left: 1270px;
+}
+
+.contactext::before {
+    content: '';
+    position: absolute;
+    background-size: cover;
+    background: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 7px;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.contactext {
+    display: inline-block;
+    position: absolute;
+    color: black;
+    left: 1162px;
+    top: 109%;
+    font-size: 24px;
+    text-decoration: 4px underline solid palevioletred;
+    font-family: 'Asap Condensed', sans-serif;
+
+}
+
+@media (max-width: 750px) {
+    body {
+        background-size: 1570px 3123px;
+    }
+
+    .navbar {
+        width: 362px;
+        height: 87px;
+    }
+
+    @keyframes navi {
+        50% {
+            top: 4px;
+        }
+
+        100% {
+            top: -4px;
+        }
+
+    }
+
+    @keyframes giza {
+        50% {
+            top: 55px;
+
+        }
+
+        100% {
+            top: 1px;
+        }
+    }
+    
+@keyframes Ellora {
+    50% {
+        top: 1px;
+    }
+
+    100% {
+        top: 51px;
+    }
+}
+
+    .logoanime {
+        color: floralwhite;
+        position: relative;
+        left: 80%;
+        bottom: 29px;
+        font-family: 'Caprasimo', cursive;
+        font-size: 18px;
+        animation: navi 3s;
+    }
+
+    .logoanime1 {
+        position: relative;
+        left: 50%;
+        top: -10px;
+        color: floralwhite;
+        font-family: 'Caprasimo', cursive;
+        font-size: 17px;
+        animation: navi1 3s;
+    }
+
+    ul {
+        position: relative;
+        width: 313px;
+        right: 428px;
+        top: 26px;
+    }
+
+
+
+    li p {
+        padding: 0px 36px;
+    }
+
+    .navanimation {
+        text-decoration: none;
+        font-size: 19px;
+        color: white;
+        position: relative;
+        left: 251px;
+    }
+
+    .imglogo {
+        position: relative;
+        width: 47px;
+        right: 82px;
+        bottom: 19px;
+    }
+
+    
+
+    .we {
+        display: inline-block;
+        border: 3px solid rgb(4, 54, 55);
+        width: 80%;
+        height: 280px;
+        position: relative;
+        left: 15%;
+        top: 34px;
+        background-color: #afeeeecf;
+        border-radius: 19px;
+        box-shadow: 10px 10px cornflowerblue;
+        transition: 0.7s;
+    }
+
+    .whowe {
+        padding: 25px;
+        position: relative;
+        bottom: 23px;
+        font-family: 'Heebo', sans-serif;
+        font-size: 13px
+    }
+
+    .banner {
+        display: flex;
+        height: 86vh;
+        width: 77%;
+        position: relative;
+        top: -231px;
+        border: 4px solid;
+        border-color: burlywood;
+        left: 74px;
+        border-radius: 14px;
+        transition: 0.5s
+    }
+
+    .paratwo {
+        background: #00ffffc4;
+        width: 75vw;
+        height: 247px;
+        position: relative;
+        left: 80px;
+        top: 965px;
+        border-radius: 15px;
+        box-shadow: 7px 7px 2px aliceblue;
+        transition: 0.8s;
+    }
+
+    h5 {
+        position: relative;
+        left: 75px;
+        top: 22px;
+        font-family: 'Arimo', sans-serif;
+        font-size: 23px;
+        text-decoration: underline 2px solid cornsilk;
+    }
+
+    .ourmis {
+        position: relative;
+        top: 17px;
+        padding: 18px;
+        font-family: 'Heebo', sans-serif;
+        left: 6px;
+        font-size: 15px;
+    }
+
+    .social {
+        width: 0;
+        position: relative;
+        height: 0;
+        left: 85%;
+    }
+
+    .vision {
+        display: flex;
+        position: relative;
+        width: 258px;
+        top: 268px;
+        left: 97px;
+        border-radius: 17px;
+        transition: 0.5s;
+        border: 4px solid hotpink;
+    }
+
+    .contactext::before {
+        content: '';
+        position: absolute;
+        background-size: cover;
+        background: white;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 7px;
+        height: 112%;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        opacity: 0.5;
+    }
+
+    .contactext {
+        display: inline-block;
+        position: absolute;
+        color: black;
+        left: 88px;
+        width: 307px;
+        top: 329%;
+        font-size: 27px;
+        text-decoration: 4px underline solid palevioletred;
+        font-family: 'Asap Condensed', sans-serif;
+    }
+
+    #faceb {
+        display: inline-block;
+        height: 0px;
+        position: relative;
+        left: 63%;
+        top: 2214px;
+    }
+
+    .insta {
+        display: flex;
+        height: 91px;
+        width: 95px;
+        position: relative;
+        transition: 0.5s;
+        top: 2198px;
+        right: 246px;
+    }
+
+    .telegram {
+        position: relative;
+        top: 2206px;
+        width: 79px;
+        transition: 0.5s;
+        height: 79px;
+        left: 220px;
+    }
+
+    .Ajanta {
+        display: inline-block;
+        position: absolute;
+        width: 78px;
+        left: 366px;
+        top: 51px;
+        border-radius: 8px;
+        animation: Ellora 5s;
+        transition: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+
+    }
+    .giza {
+        display: inline-block;
+        width: 78px;
+        height: 47px;
+        position: absolute;
+        left: 366px;
+        top: 1px;
+        border-radius: 6px;
+        animation: giza 5s;
+        transition: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+    }
+
+    .rome {
+        display: none;
+
+    }
+
+    .wallchina {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
